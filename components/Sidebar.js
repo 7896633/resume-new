@@ -23,7 +23,7 @@ const Sidebar = () => {
             />
                                                {/*字母间距*/}
             <h3 className='text-2xl font-black tracking-widest my-4 '>
-                张三
+                包启明
             </h3>
             <p className='flex items-center justify-center rounded-full bg-gray-200 px-2 py-1 my-3 dark:bg-dark-200 '>
                 <FaReact/>web前端工程师
@@ -37,8 +37,8 @@ const Sidebar = () => {
                     <GiPositionMarker/>
                     <span>中国,北京</span>
                 </div>
-                <p>邮箱：xxxxxxxxx@xx.com</p>
-                <p>手机号：100820820</p>
+                <p>邮箱：2829115644@qq.com</p>
+                <p>手机号：18146626629</p>
             </div>
                                               {/*点击打开win的邮箱*/}
             <button className='an' onClick={()=>window.open('mailto:xxxxxxxxx@xx.com')}>我的邮箱</button>

@@ -23,7 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <p className='my-3 font-medium '>
-            6个月学习经验,对ui/ux设计相对了解
+            我有着一年前端学习经验,对后端和ui/ux设计也也有所了解。
         </p>
         <div className='p-4 mt-5 bg-gray-400 -mx-6 flex-grow dark:bg-dark-100'>
             <h6 className='my-3 text-xl font-bold tracking-widest '>我能够</h6>

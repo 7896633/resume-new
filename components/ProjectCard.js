@@ -8,8 +8,7 @@ import {fadeInUp, stagger} from "../animations";
 
 
 
-const ProjectCard = ({project: {name, image_path, git_url, deployed_url, description, key_techs, id},
-                         showDetail, setShowDetail,}) => {
+const ProjectCard = ({item: {name, image_path, git_url, deployed_url, description, key_techs, id}, showDetail, setShowDetail,}) => {
     return (
         <div>
             {/*点击显示对应id*/}
