@@ -139,13 +139,13 @@ export const projectsData=[
     },
     {
         id:4,
-        name: "文章发布",
+        name: "文章发布功能",
         image_path: "/img6.png",
         git_path:'https://github.com/',
         deployed_url: "https://www.bilibili.com/",
         category:"next.js",
         description:
-            "实现文章发布功能:发布和查看功能",
+            "文章发布和查看别人的文章",
         key_techs: ["firebase", "Next js","tailwindcss"],
     },
     {
