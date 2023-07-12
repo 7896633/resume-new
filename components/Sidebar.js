@@ -28,7 +28,7 @@ const Sidebar = () => {
             <p className='flex items-center justify-center rounded-full bg-gray-200 px-2 py-1 my-3 dark:bg-dark-200 '>
                 <FaReact/>web前端工程师
             </p>
-            <a href='/jianli.jpg' download='/jianli.jpg'
+            <a href='/resume.pdf' download='/resume.pdf'
                className='flex items-center justify-center rounded-full bg-gray-200 px-2 py-1 my-3 cursor-pointer dark:bg-dark-200 '>
                 <FiUser/>个人简历
             </a>
@@ -41,7 +41,7 @@ const Sidebar = () => {
                 <p>手机号：18146626629</p>
             </div>
                                               {/*点击打开win的邮箱*/}
-            <button className='an' onClick={()=>window.open('mailto:xxxxxxxxx@xx.com')}>我的邮箱</button>
+            <button className='an' onClick={()=>window.open('mailto:2829115644@qq.com')}>我的邮箱</button>
             <button className='an' onClick={changeTheme} >主题切换</button>
         </>
     );
