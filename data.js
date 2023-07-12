@@ -113,7 +113,7 @@ export const projectsData=[
         category:"react.js",
         description:
             "企业网站",
-        key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+        key_techs: ["React", "redux","sass","mui"],
     },
     {
         id:2,
@@ -121,10 +121,10 @@ export const projectsData=[
         image_path: "/img4.png",
         git_path:'https://github.com/',
         deployed_url: "https://www.bilibili.com/",
-        category:"react.js",
+        category:"node.js",
         description:
             "忘记密码，资料编辑，列表创建，轮播图展示",
-        key_techs: ["React", "tailwindcss","firebase"],
+        key_techs: ["React", "tailwindcss","firebase","swiper","node.js"],
     },
     {
         id:3,
@@ -132,10 +132,10 @@ export const projectsData=[
         image_path: "/img5.png",
         git_path:'https://github.com/',
         deployed_url: "https://www.bilibili.com/",
-        category:"node.js",
+        category:"next.js",
         description:
             "互相聊天，群聊，好友添加",
-        key_techs: ["Express", "MongoDB", "Node","react"],
+        key_techs: ["next.js","prisma","socket.io","tailwindcss"],
     },
     {
         id:4,
@@ -146,7 +146,7 @@ export const projectsData=[
         category:"next.js",
         description:
             "文章发布和查看别人的文章",
-        key_techs: ["firebase", "Next js","tailwindcss"],
+        key_techs: ["firebase", "Next js","tailwindcss",'framer-motion'],
     },
     {
         id:5,
@@ -154,10 +154,10 @@ export const projectsData=[
         image_path: "/img7.png",
         git_path:'https://github.com/',
         deployed_url: "https://www.bilibili.com/",
-        category:"next.js",
+        category:"react.js",
         description:
             "选择日期和班次",
-        key_techs: ["React", "firebase","tailwindcss"],
+        key_techs: ["React", "firebase","tailwindcss","swiper"],
     },
     {
         id:6,
@@ -169,7 +169,7 @@ export const projectsData=[
         description:
             "音乐查找与播放功能",
         key_techs: [
-            "Next js", "Next auth","tailwindcss","spotify"
+            "next.js", "next-auth","tailwindcss","spotify"
         ],
     },
     {
@@ -194,6 +194,6 @@ export const projectsData=[
         git_path:'https://github.com/',
         deployed_url: "https://www.bilibili.com/",
         category:"next.js",
-        key_techs: ["firebase", "Next js", "Next auth","tailwindcss"],
+        key_techs: ["firebase", "next.js", "next-auth","tailwindcss"],
     },
 ]
